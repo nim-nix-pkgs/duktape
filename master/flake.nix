@@ -11,7 +11,6 @@
   inputs.src-duktape-master.ref   = "refs/heads/master";
   inputs.src-duktape-master.owner = "manguluka";
   inputs.src-duktape-master.repo  = "duktape-nim";
-  inputs.src-duktape-master.dir   = "";
   inputs.src-duktape-master.type  = "github";
   
   inputs."nimgen".owner = "nim-nix-pkgs";
