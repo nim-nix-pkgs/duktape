@@ -7,42 +7,8 @@
   "license": "MIT",
   "web": "https://github.com/manguluka/duktape-nim",
   "refs": [
-    "refs/heads/master",
+    "fatal: unable to access 'https://github.com/manguluka/duktape-nim/': HTTP/2 stream 1 was not closed cleanly before end of the underlying stream",
     ""
   ],
-  "heads": [
-    {
-      "name": "duktape",
-      "version": "0.1.0",
-      "author": "Manguluka Kakia",
-      "desc": "wrapper for the Duktape embeddable Javascript engine",
-      "license": "MIT",
-      "skipDirs": [
-        "tests",
-        "src"
-      ],
-      "skipFiles": [],
-      "skipExt": [],
-      "installDirs": [
-        "duktape"
-      ],
-      "installFiles": [],
-      "installExt": [],
-      "requires": [
-        {
-          "name": "nimgen",
-          "str": ">= 0.1.4",
-          "ver": {
-            "kind": "verEqLater",
-            "ver": "0.1.4"
-          }
-        }
-      ],
-      "bin": [],
-      "binDir": "",
-      "srcDir": "",
-      "backend": "c",
-      "ref": "refs/heads/master"
-    }
-  ]
+  "heads": []
 }
