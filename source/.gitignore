@@ -1,0 +1,4 @@
+duktape/*.nim
+nimcache
+tests/bind_proc
+tests/basic_eval
